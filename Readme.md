@@ -1,4 +1,4 @@
-# MQMessaging sample project  
+# MQMessaging sample project (wip)
 
 This is a sample project that i've made to learn more about MQ, especially with RabbitMQ.  
 
