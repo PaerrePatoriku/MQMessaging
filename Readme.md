@@ -1,4 +1,4 @@
-# MQMessaging sample project (wip)
+# MQMessaging sample project 
 
 This is a sample project that i've made to learn more about MQ, especially with RabbitMQ.  
 
@@ -19,4 +19,9 @@ This way messages are less likely to miss delivery, since they are dequeued from
 
 Since this only focuses on the queue itself the client is not secure and there is no persistent data for the worker, just visible logging that the app receives messages...
 
+# Running the demo  
 
+Run the docker compose services (the only service there is the rabbitmq local instance)
+Then also run the API, the mock message console client and the worker  
+
+The API receives messages from the mock client that then is forwarded to the MQ, then the worker goes through this queue once messages arrive.
