@@ -11,12 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bceec24-55fb-49ab-a890-c8cf7874f84f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MQClient/Infra/IMessageQueue.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MQClient/Infra/RabbitMqQueue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MQCommon/Infra/CustomsMQQueue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MQCommon/Infra/RabbitMQOptions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MQWorkerApp/Consumer/IMessageConsumer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MQWorkerApp/Consumer/MQMessageConsumer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MQMessaging/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MQMessaging/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MQClient/Infra/RabbitMqQueue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MQClient/Infra/RabbitMqQueue.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MQClient/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MQClient/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MQClient/Services/CustomsMessagingService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MQClient/Services/CustomsMessagingService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MQClient/Services/ICustomsMessagingService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MQClient/Services/ICustomsMessagingService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MQCommon/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MQCommon/Customs/CustomsMessage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MQCommon/Customs/CustomsMessage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MQCommon/MQCommon.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MQCommon/MQCommon.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MQWorkerApp/MQWorkerApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MQWorkerApp/MQWorkerApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MQWorkerApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MQWorkerApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MQWorkerApp/Worker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MQWorkerApp/Worker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MQWorkerApp/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MQWorkerApp/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,32 +37,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "PaerrePatoriku"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PaerrePatoriku&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/PaerrePatoriku/MQMessaging.git",
-    "accountId": "309f6c85-6b6c-4410-9070-53e6594aa8f8"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PaerrePatoriku/MQMessaging.git&quot;,
+    &quot;accountId&quot;: &quot;309f6c85-6b6c-4410-9070-53e6594aa8f8&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ExternalMockApp/MockCommunicator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ExternalMockApp/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MQClient/Infra/MqInfra.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MQClient/Routing/IndexRouter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MQClient/Services/CustomsMessagingService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MQClient/Services/ICustomsMessagingService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MQCommon/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MQCommon/Customs/MessageType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MQCommon/Infra/CustomsMQQueue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MQCommon/Infra/RabbitMQOptions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MQWorkerApp/Consumer/IMessageConsumer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MQWorkerApp/Consumer/MQMessageConsumer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="3GAXhABgz2XB014aqWuaNPaMqha" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -66,6 +77,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     ".NET Launch Settings Profile.MQMessagingClient: http.executor": "Run",
+    ".NET Launch Settings Profile.MQMessagingWorkerApp.executor": "Run",
     ".NET Project.ExternalMockApp.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -85,7 +97,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.MQMessagingClient: http">
+  <component name="RunManager" selected=".NET Launch Settings Profile.MQMessagingWorkerApp">
     <configuration name="ExternalMockApp" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -164,6 +176,7 @@
       <option name="presentableId" value="Default" />
       <updated>1783415463940</updated>
       <workItem from="1783415465555" duration="9852000" />
+      <workItem from="1783456573909" duration="5158000" />
     </task>
     <task id="LOCAL-00001" summary="Making the initial hierarchy&#10;&#10;At this point the client DOES NOT actually use mq, instead it just receives messages...&#10;&#10;After I've configured a rabbitmq docker instance, then I will wire it up together with the client and the actual app...">
       <option name="closed" value="true" />

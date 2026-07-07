@@ -1,14 +1,17 @@
 using MQCommon.Customs;
+using MQCommon.Infra;
 using MQMessagingClient.Infra;
 using MQMessagingClient.Routing;
 using MQMessagingClient.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Logging.AddConsole(); 
-
 builder.Services.AddOpenApi();
-builder.Services.AddScoped(typeof(ICustomsMessagingService), typeof(CustomsMessagingService));
+
+builder.Services.Configure<RabbitMQOptions>(builder.Configuration.GetSection("RabbitMQOptions"));
+builder.Services.AddSingleton(typeof(ICustomsMQQueue), typeof(CustomsMQQueue));
 builder.Services.AddSingleton<IMessageQueue, RabbitMqQueue>();
+builder.Services.AddScoped(typeof(ICustomsMessagingService), typeof(CustomsMessagingService));
 
 var app = builder.Build();
 
