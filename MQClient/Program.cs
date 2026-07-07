@@ -1,15 +1,14 @@
 using MQCommon.Customs;
+using MQMessagingClient.Infra;
 using MQMessagingClient.Routing;
 using MQMessagingClient.Services;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
 builder.Logging.AddConsole(); 
 
+builder.Services.AddOpenApi();
 builder.Services.AddScoped(typeof(ICustomsMessagingService), typeof(CustomsMessagingService));
+builder.Services.AddSingleton<IMessageQueue, RabbitMqQueue>();
 
 var app = builder.Build();
 

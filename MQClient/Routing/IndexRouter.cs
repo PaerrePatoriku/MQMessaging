@@ -22,6 +22,7 @@ public class IndexRouter
         {
             logger.LogInformation($"Custom message received ${message.Message}, ${message.Type}. This will be queued shortly...");
             //todo: the actual functionality...
+            service.HandleMessage(message);
             return Results.Ok(new
             {
                 message = "Message received"
