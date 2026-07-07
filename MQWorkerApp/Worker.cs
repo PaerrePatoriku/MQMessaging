@@ -4,6 +4,7 @@ namespace MQMessagingWorkerApp;
 
 public class Worker : BackgroundService
 {
+    
     IMessageConsumer _consumer;
     public Worker(IMessageConsumer messageConsumer)
     {

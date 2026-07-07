@@ -1,0 +1,58 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="fTG--fnj2MsosShWaZjI">
+    <mxGraphModel dx="1150" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5KOW5djZ0JeNfjx955FO-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="400" width="580" x="40" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5KOW5djZ0JeNfjx955FO-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="MQ Demo" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5KOW5djZ0JeNfjx955FO-8" edge="1" parent="1" source="5KOW5djZ0JeNfjx955FO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="5KOW5djZ0JeNfjx955FO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5KOW5djZ0JeNfjx955FO-9" connectable="0" parent="5KOW5djZ0JeNfjx955FO-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Sends messages to..." vertex="1">
+          <mxGeometry relative="1" x="-0.2921" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5KOW5djZ0JeNfjx955FO-15" edge="1" parent="1" source="5KOW5djZ0JeNfjx955FO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5KOW5djZ0JeNfjx955FO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5KOW5djZ0JeNfjx955FO-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&quot;Mock&quot; external &quot;customs system&quot;" vertex="1">
+          <mxGeometry height="70" width="285" x="220" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5KOW5djZ0JeNfjx955FO-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Mimics a customs system that sends customs declaration replies to an application defined by a customs customer" vertex="1">
+          <mxGeometry height="70" width="180" x="540" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5KOW5djZ0JeNfjx955FO-10" edge="1" parent="1" source="5KOW5djZ0JeNfjx955FO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5KOW5djZ0JeNfjx955FO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5KOW5djZ0JeNfjx955FO-11" connectable="0" parent="5KOW5djZ0JeNfjx955FO-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Queues&lt;div&gt;messages to...&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0465" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5KOW5djZ0JeNfjx955FO-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="API" vertex="1">
+          <mxGeometry height="60" width="290" x="217.5" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="5KOW5djZ0JeNfjx955FO-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" value="RabbitMQ" vertex="1">
+          <mxGeometry height="60" width="130" x="660" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="5KOW5djZ0JeNfjx955FO-13" edge="1" parent="1" source="5KOW5djZ0JeNfjx955FO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5KOW5djZ0JeNfjx955FO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5KOW5djZ0JeNfjx955FO-14" connectable="0" parent="5KOW5djZ0JeNfjx955FO-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Dequeues&lt;div&gt;messages from...&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3024" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5KOW5djZ0JeNfjx955FO-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" value="AppWorker" vertex="1">
+          <mxGeometry height="60" width="290" x="220" y="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

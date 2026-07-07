@@ -11,20 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bceec24-55fb-49ab-a890-c8cf7874f84f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MQCommon/Infra/CustomsMQQueue.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MQCommon/Infra/RabbitMQOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MQWorkerApp/Consumer/IMessageConsumer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MQWorkerApp/Consumer/MQMessageConsumer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MQMessaging/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MQMessaging/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MQClient/Infra/RabbitMqQueue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MQClient/Infra/RabbitMqQueue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MQClient/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MQClient/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MQCommon/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MQCommon/Customs/CustomsMessage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MQCommon/Customs/CustomsMessage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MQCommon/MQCommon.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MQCommon/MQCommon.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MQWorkerApp/MQWorkerApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MQWorkerApp/MQWorkerApp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MQWorkerApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MQWorkerApp/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MQWorkerApp/Worker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MQWorkerApp/Worker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MQWorkerApp/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MQWorkerApp/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1783415463940</updated>
       <workItem from="1783415465555" duration="9852000" />
-      <workItem from="1783456573909" duration="5158000" />
+      <workItem from="1783456573909" duration="5538000" />
     </task>
     <task id="LOCAL-00001" summary="Making the initial hierarchy&#10;&#10;At this point the client DOES NOT actually use mq, instead it just receives messages...&#10;&#10;After I've configured a rabbitmq docker instance, then I will wire it up together with the client and the actual app...">
       <option name="closed" value="true" />
@@ -218,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783429375546</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Working sample iteration #1">
+      <option name="closed" value="true" />
+      <created>1783461744156</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1783461744156</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +228,8 @@
     <MESSAGE value="Removing sample code" />
     <MESSAGE value="Refactoring the minimal API&#10;&#10;Moving the minimal API stuff to its own &quot;index router&quot;. Adding a so-far empty base to the service that receives our imaginary customs messages" />
     <MESSAGE value="Improving the mock app messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improving the mock app messages" />
+    <MESSAGE value="Working sample iteration #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working sample iteration #1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
