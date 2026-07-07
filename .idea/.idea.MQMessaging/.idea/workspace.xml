@@ -10,20 +10,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bceec24-55fb-49ab-a890-c8cf7874f84f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExternalMockApp/MockCommunicator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MQClient/MQClient.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MQClient/MQMessagingClient.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MQClient/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MQClient/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MQClient/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MQClient/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MQCommon/Customs/CustomsMessage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MQCommon/Customs/MessageType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MQMessaging.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MQWorkerApp/MQWorkerApp.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="3bceec24-55fb-49ab-a890-c8cf7874f84f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,8 +137,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1783415463940</updated>
-      <workItem from="1783415465555" duration="4226000" />
+      <workItem from="1783415465555" duration="4599000" />
     </task>
+    <task id="LOCAL-00001" summary="Making the initial hierarchy&#10;&#10;At this point the client DOES NOT actually use mq, instead it just receives messages...&#10;&#10;After I've configured a rabbitmq docker instance, then I will wire it up together with the client and the actual app...">
+      <option name="closed" value="true" />
+      <created>1783420048444</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1783420048444</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +157,8 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Making the initial hierarchy&#10;&#10;At this point the client DOES NOT actually use mq, instead it just receives messages...&#10;&#10;After I've configured a rabbitmq docker instance, then I will wire it up together with the client and the actual app..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Making the initial hierarchy&#10;&#10;At this point the client DOES NOT actually use mq, instead it just receives messages...&#10;&#10;After I've configured a rabbitmq docker instance, then I will wire it up together with the client and the actual app..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
