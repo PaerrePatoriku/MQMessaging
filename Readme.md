@@ -5,6 +5,8 @@ This is a sample project that i've made to learn more about MQ, especially with 
 This is a simulated app hierarchy where the architecture & idea is the following:
 
 
+![Architecture](Docs/arch.png)
+
 The simulation is that a customs handling system sends and receives customs related data from a government service.  
 The point of the queue here is that even though the government service in question uses a standardized JSON API contract,  
 The endpoint that receives messages only queues the messages received.   
