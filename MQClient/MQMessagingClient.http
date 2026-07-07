@@ -1,0 +1,6 @@
+@MQMessagingClient_HostAddress = http://localhost:5017
+
+GET {{MQMessagingClient_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
