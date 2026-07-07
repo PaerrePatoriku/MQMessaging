@@ -29,7 +29,7 @@ public class MockCommunicator
             new CustomsMessage("Declaration ABC1 registered.", MessageType.CUS_DECLARATION_REGISTERED),
             new CustomsMessage("Declaration ABC3 message rule violation [followed by some customs system errors here...]", MessageType.CUS_REJECTED),
         ]);
-    public async void SendMockMessage()
+    public async Task SendMockMessage()
     {
         var random = new Random();
         var selectedIndex = random.Next(0, _messages.Count);
@@ -44,8 +44,10 @@ public class MockCommunicator
         
         File.WriteAllText("request.json",  messageBody);
         //lets not doubly serialize, the above is just for saving the message before sending it...
+        Console.WriteLine("Sending a mock message...");
         var response = await HttpClient.PostAsJsonAsync("", chosenMessage);
-        
+        Console.WriteLine("Mock message sent! Outputting the response");
+        Console.WriteLine(await response.Content.ReadAsStringAsync());
 
     }   
 }

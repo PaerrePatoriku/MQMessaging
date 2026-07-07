@@ -20,7 +20,7 @@ class Program
         {
             Console.WriteLine("Press any key to send a mock message... (CTRL + C to end)");
             Console.ReadLine();
-            c.SendMockMessage();
+            c.SendMockMessage().Wait(); //the io looks silly if we dont await first. This is ok for a console app like this...
         }
     }
 }
